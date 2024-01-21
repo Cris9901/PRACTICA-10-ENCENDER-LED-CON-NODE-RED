@@ -108,7 +108,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 }
 ```
 
-2. Instalar las librerias de **PubSubClient** como se muestra en la siguente imagen.
+2. Instalar la libreria de **PubSubClient** como se muestra en la siguente imagen.
 
 ![](https://github.com/Cris9901/PRACTICA-10-ENCENDER-LED-CON-NODE-RED/blob/main/IMAGEN%201.jpg)
 
