@@ -110,35 +110,35 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
 2. Instalar las librerias de **PubSubClient** como se muestra en la siguente imagen.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-10-ENCENDER-LED-CON-NODE-RED/blob/main/IMAGEN%201.jpg)
 
 3. Hacer la conexion del **LED** y el **Resistor** con la **ESP32** como se muestra en la siguente imagen.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-10-ENCENDER-LED-CON-NODE-RED/blob/main/IMAGEN%202.jpg)
 
 4. Cambiando al programa de **Node-RED** primero tendran que colocar el bloque de ```mqtt out```.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-10-ENCENDER-LED-CON-NODE-RED/blob/main/IMAGEN%203.jpg)
 
 5. Configurar el bloque con el puerto ```mqtt out``` con el ip **18.193.219.109** y el nombre **CRISLED** como se muestra en la imagen.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-10-ENCENDER-LED-CON-NODE-RED/blob/main/IMAGEN%204.jpg)
 
 6. Colocar el bloque de ```switch```.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-10-ENCENDER-LED-CON-NODE-RED/blob/main/IMAGEN%205.jpg)
 
 7. Configurar el bloque con el puerto ```switch``` con el grupo de **INTERRUPTORES** como se muestra en la imagen.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-10-ENCENDER-LED-CON-NODE-RED/blob/main/IMAGEN%206.jpg)
 
 8. Conectar los bloques ```switch``` y ```mqtt out``` de la siguiente manera.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-10-ENCENDER-LED-CON-NODE-RED/blob/main/IMAGEN%207.jpg)
 
 9. Por ultimo en la pestaña de de *Layout* crearemos otro tabulador llamado **LED**, dentro de el añadiremos un grupo llamado **INTERRUPTORES**.
 
-![]()
+![](https://github.com/Cris9901/PRACTICA-10-ENCENDER-LED-CON-NODE-RED/blob/main/IMAGEN%208.jpg)
 
 ### Instrucciónes de operación
 
@@ -152,10 +152,10 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
 Cuando haya funcionado, verás la luz del **LED** encendida y los valores dentro del monitor serial, con respecto a la interfaz se mostrará como en las siguentes imagenes.
 
-![]()
-![]()
-![]()
-![]()
+![](https://github.com/Cris9901/PRACTICA-10-ENCENDER-LED-CON-NODE-RED/blob/main/IMAGEN%209.jpg)
+![](https://github.com/Cris9901/PRACTICA-10-ENCENDER-LED-CON-NODE-RED/blob/main/IMAGEN%2010.jpg)
+![](https://github.com/Cris9901/PRACTICA-10-ENCENDER-LED-CON-NODE-RED/blob/main/IMAGEN%2011.jpg)
+![](https://github.com/Cris9901/PRACTICA-10-ENCENDER-LED-CON-NODE-RED/blob/main/IMAGEN%2012.jpg)
 
 # Créditos
 Desarrollado por Ing. Montañez Mejia Cristian.
